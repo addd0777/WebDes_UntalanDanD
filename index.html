@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GemForgeGents</title>
+
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="icon" href="images/iconnnnn2.png" type="image/icon type">
+</head>
+
+<style>
+   
+
+
+    
+    .wrapper{
+    width: 80%;
+    padding: 30px 0;
+    text-align: center;
+}
+.section-header{
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    
+}
+.content {
+  padding: 10%;
+}
+.content h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.content p {
+  line-height: 1.5;
+  font-size: small;
+  text-align: justify;
+  
+  
+}
+.main-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+}
+.main-content .box{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    height: 250px;
+    overflow: hidden;    
+}
+.main-content .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.main-content .box:hover:before{
+    top: 0;
+    right: calc(100% - 5px);
+    z-index: 10;
+}
+.main-content .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content .box .img-text {
+	position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255,255,255,0.9);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 100%;
+	transition: all 0.5s ease-in-out;	
+}
+.main-content .box:hover .img-text{
+    top: 0;
+    right: 0;
+}
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
+
+<body>
+    <nav>
+        <div class="nav_content">
+            <div class="logo">
+                <img src="/images/iconnnnn2.png">
+            </div>
+            <ul class="nav_links">
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service" target="_parent">Service</a></li>
+                <li><a href="cart.html" target="_blank">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+        
+        <div id="home" >
+       
+    </div>
+        <div id="about" class="content" data-aos="fade-right" >
+
+            <center>
+                <h1>GemForgeGents</h1>
+             <br>
+            <img src="images/iconnnnn2.png" alt="Logo" width="180" height="180">
+                 <br><br><hr><br>
+             <p class="par" style="font-size:1.2vw">At GemForgeGents, we believe a man's confidence starts with the finer details. We're not just another jewelry store  – we're your trusted partner in crafting a look that speaks to your unique style.</p>
+                
+              <p class="par" style="font-size:1.2vw">Imagine this - You have an important meeting, a hot date, or a night out with the guys. You want to feel polished and put-together, and a ring from GemForgeGents can make all the difference. We've curated an exceptional collection of rings, each one chosen for its quality craftsmanship and timeless design. We believe every man deserves to feel like his most distinguished self, and our pieces are designed to add a touch of swagger to your everyday look.</p>
+        
+             <p class="par" style="font-size:1.2vw">Convenience is key too. We know your time is valuable, that's why shopping with GemForgeGents is a breeze. Our website is easy to navigate, allowing you to browse our collection at your leisure. Once you've found the perfect ring, simply add it to your cart and checkout. We'll ensure it gets delivered right to your doorstep, so you can focus on feeling your best.</p>
+        
+             <p class="par" style="font-size:1.2vw">At GemForgeGents, we go above and beyond for our customers. Our friendly and knowledgeable team is always here to help. If you need advice on choosing the perfect ring or have any questions about our collection, we're just a phone call or email away. We pride ourselves on providing exceptional customer service and ensuring you find the perfect piece to complement your style.</p>
+    
+                <button class="cn"><a href="cart.html">Buy Now</a></button>
+    
+                </center>
+            </div>
+        </div>
+
+
+        <section id="service" class="service"></section>
+        <center><h1>Top Sellers</h1></center>
+        <div class="center-div" data-aos="zoom-in">
+        <div class="wrapper">
+            <h1 class="section-header">Gallery</h1>
+            <div class="main-content">
+                
+                <div class="box">
+                    <img src="images/COVERRR2.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>The Signature Collection</h2>
+                        <p>This edition focuses on timeless classics and high-quality craftsmanship. It would feature rings made from precious metals like platinum, gold, and sterling silver,
+                             with a focus on clean lines and elegant designs. Think signet rings, wedding bands, and minimalist gemstone pieces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/deluxeedition.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>The Statement Maker Collection</h2>
+                        <p>This edition caters to those who want to stand out. It would feature bold and eye-catching designs, incorporating unique materials like titanium, black tungsten carbide,
+                            or mixed metals. Statement rings might include large gemstones, intricate engravings, or unconventional shapes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/goldedition.png" alt="">
+                    <div class="img-text">
+                        <div class="content">
+                            <h2>The Modern Man Collection</h2>
+                        <p> This edition targets the trend-conscious gentleman. It would feature contemporary designs that reflect the latest fashion trends.  Think geometric shapes, matte finishes,
+                            or combinations of traditional and modern elements. This collection could also include rings with unique materials or functionalities like stackable rings or hidden compartments.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="contact">
+            <section id="contact">
+                <h1 class="section-header">Contact</h1>
+                
+                <div class="contact-wrapper">
+                    <!-- Left contact page --> 
+                    
+                    <form id="contact-form" class="form-horizontal" role="form">
+
+                        <h1></h1>
+                        
+                        <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                        </div>
+                        </div>
+                
+                        <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                        </div>
+                        </div>
+                
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                        
+                        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                        <div class="alt-send-button">
+                            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                        </div>
+                        
+                        </button>
+                        
+                    </form>
+                    <!-- Left contact page --> 
+                    
+                        <div class="direct-contact-container">
+                    
+                            <ul class="contact-list">
+                                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Manila, Metro Manila</span></i></li>
+                                
+                                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">
+                                    (+63) 969-217-2309</a></span></i></li>
+                                
+                                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">
+                                    GemForgeGents@gmail.com</a></span></i></li>
+                                
+                            </ul>
+                    
+                         
+                </div>
+            </section>    
+        </div>
+
+          <!--FOOTER COPYRIGHT-->
+          <footer>
+            <div class="copyright">
+                © Copyright GemForgeGents. All Rights Reserved 2024
+            </div>
+          </footer>
+    
+<script src="javas.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: true,
+  });
+</script>
+</body>
+</html>
